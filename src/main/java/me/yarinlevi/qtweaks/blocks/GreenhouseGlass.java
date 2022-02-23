@@ -20,7 +20,7 @@ import java.util.Random;
  **/
 public class GreenhouseGlass extends QBlock {
     public GreenhouseGlass() {
-        super(QTweaks.defaultPickProps(0, 0.5F, 10.0F).noOcclusion().sound(SoundType.GLASS).randomTicks());
+        super(QTweaks.defaultPickProps(0, 2F, 10.0F).noOcclusion().sound(SoundType.GLASS).randomTicks());
     }
 
     @Override
