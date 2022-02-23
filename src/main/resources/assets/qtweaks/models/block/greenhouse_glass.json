@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "qtweaks:block/block_greenhouse_glass"
+	}
+}
