@@ -48,6 +48,6 @@ public class QTweaks {
     }
 
     public static Block.Properties defaultPickProps(int harvestLevel, float hardness, float resistance) {
-        return Block.Properties.of(Material.STONE).harvestLevel(harvestLevel).harvestTool(ToolType.PICKAXE).strength(hardness, resistance).sound(SoundType.STONE).noOcclusion();
+        return Block.Properties.of(Material.METAL).harvestLevel(harvestLevel).harvestTool(ToolType.PICKAXE).strength(hardness, resistance).sound(SoundType.STONE).noOcclusion();
     }
 }
