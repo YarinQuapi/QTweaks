@@ -1,8 +1,6 @@
 package me.yarinlevi.qtweaks.blocks.base;
 
 import me.yarinlevi.qtweaks.QTweaks;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
 import net.minecraft.block.GlassBlock;
 import net.minecraft.item.Item;
 

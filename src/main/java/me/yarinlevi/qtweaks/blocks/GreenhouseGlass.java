@@ -2,19 +2,15 @@ package me.yarinlevi.qtweaks.blocks;
 
 import me.yarinlevi.qtweaks.QTweaks;
 import me.yarinlevi.qtweaks.blocks.base.QBlock;
-import net.minecraft.block.*;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.util.Direction;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.IGrowable;
+import net.minecraft.block.SoundType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
-import net.minecraft.util.math.vector.Vector3d;
-import net.minecraft.util.math.vector.Vector3i;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import org.apache.commons.lang3.tuple.Triple;
 
 import java.util.Random;
