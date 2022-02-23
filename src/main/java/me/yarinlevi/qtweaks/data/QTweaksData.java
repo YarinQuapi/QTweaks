@@ -21,6 +21,7 @@ public class QTweaksData {
 
             generator.addProvider(new BlockRecipeGenerator(generator));
             generator.addProvider(new BlockStateGenerator(generator, existingFileHelper));
+            generator.addProvider(new LootTableGenerator(generator));
         }
     }
 }
